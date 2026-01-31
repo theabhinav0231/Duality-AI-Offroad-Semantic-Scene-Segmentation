@@ -571,37 +571,3 @@ checkpoint = torch.load(path, weights_only=False)
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- **Duality AI** for the dataset and problem statement
-- **Segmentation Models PyTorch** for the UNet implementation
-- **Albumentations** for efficient data augmentation
-- **PyTorch** team for the deep learning framework
-
----
-
-## 📧 Contact
-
-- **Team**: Sparrow
-- **Members**: Abhinav Kumar, Deepanshu Negi, Meenakshi Rakesh, Poonam Rout
-- **Project**: Duality AI Semantic Scene Segmentation Challenge
-- **GitHub**: [yourusername/offroad-segmentation](https://github.com/yourusername/offroad-segmentation)
-
----
-
-## 🗺️ Roadmap
-
-- [ ] Add DeepLabV3+ architecture support
-- [ ] Implement test-time augmentation (TTA)
-- [ ] Add ONNX export for deployment
-- [ ] Create Docker container for easy deployment
-- [ ] Add Weights & Biases integration
-- [ ] Implement active learning pipeline
-- [ ] Add support for multi-temporal data
-
----
-
-**⭐ Star this repo if you find it helpful!**
