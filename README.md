@@ -8,6 +8,8 @@
 
 Deep learning solution for classifying desert terrain into 10 distinct categories using UNet with ResNet34 encoder. Achieves **0.60 validation mIoU** and **0.58 test mIoU** through strategic handling of severe class imbalance.
 
+View Training Logs run
+https://wandb.ai/abhinav0231-krmangalam/duality-offroad-segmentation/runs/78l1ppiw?nw=nwuserabhinav0231
 ---
 
 ## 📋 Table of Contents
@@ -51,8 +53,8 @@ Autonomous vehicles require pixel-level understanding of off-road terrains for s
 
 ## ✨ Features
 
-- 🎯 **26% improvement** over baseline (0.48 → 0.60 mIoU)
-- ⚡ **Real-time capable**: 122ms inference on Tesla T4 GPU (8.2 FPS)
+- 🎯 **38% improvement** over baseline (0.23 → 0.60 mIoU)
+- ⚡ **Real-time**: 18.22ms inference on Tesla T4 GPU (54.89 FPS)
 - 🔄 **Class imbalance handling**: Weighted loss + 3× oversampling
 - 🚀 **Multi-GPU training**: DataParallel support with mixed precision (FP16)
 - 📊 **Comprehensive metrics**: Per-class IoU, precision, recall, F1-score
