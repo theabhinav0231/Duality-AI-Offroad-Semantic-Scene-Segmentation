@@ -219,9 +219,9 @@ CLASS_MAPPING = {
 
 ### Data Statistics
 
-- **Training set**: 600 images
-- **Validation set**: 100 images
-- **Test set**: 100 images
+- **Training set**: 2857 images
+- **Validation set**: 317 images
+- **Test set**: 1002 images
 - **Image resolution**: 960×540 (resized to 960×544 for training)
 
 ---
