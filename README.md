@@ -8,8 +8,12 @@
 
 Deep learning solution for classifying desert terrain into 10 distinct categories using UNet with ResNet34 encoder. Achieves **0.60 validation mIoU** and **0.58 test mIoU** through strategic handling of severe class imbalance.
 
-View Training Logs run
+View Training Logs
 https://wandb.ai/abhinav0231-krmangalam/duality-offroad-segmentation/runs/78l1ppiw?nw=nwuserabhinav0231
+---
+
+## View Segmentation Predictions
+https://drive.google.com/drive/folders/1BQilq8ShLq-Sgm5ltnDwnh2vphe0RVxo?usp=sharing
 ---
 
 ## 📋 Table of Contents
